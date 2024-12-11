@@ -58,5 +58,17 @@
                                                    &trans           &trans             &trans             &trans     &trans     &kp RALT
             >;
         };
+
+        qwerty_layer {
+            status = "reserved";
+        };
+
+        gaming_layer {
+            status = "reserved";
+        };
+
+        additional_layer {
+            status = "reserved";
+        };
     };
 };
