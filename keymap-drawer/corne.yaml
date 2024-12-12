@@ -1,0 +1,219 @@
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layers:
+  default: [TAB, W, L, Y, P, K, Z, F, O, U, '''', BSPC, LCTRL, C, R, S, T, B, X, N, E, I, A, RET, LSHIFT, Q, J, V, D, G, M, H, /, ',', ., ESC, LGUI, numpad_sym, LSHIFT,
+    SPACE, control, RALT]
+  numpad_sym:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (
+  - )
+  - '7'
+  - '8'
+  - '9'
+  - ;
+  - BACKSPACE
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - '{'
+  - '}'
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - \
+  - '['
+  - ']'
+  - '1'
+  - '2'
+  - '3'
+  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  control:
+  - RGB SPD
+  - RGB SAI
+  - '&bl BL_SET 40'
+  - '&bl BL_CYCLE'
+  - '&bl BL_OFF'
+  - '&bl BL_ON'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - PAGE UP
+  - '&bl BL_SET 100'
+  - '&bl BL_CYCLE'
+  - RGB SPD
+  - RGB SPI
+  - VOLUME DOWN
+  - VOLUME UP
+  - '-'
+  - +
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - '&studio_unlock'
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - REDO
+  - _
+  - '='
+  - '{'
+  - '}'
+  - '|'
+  - PAGE DOWN
+  - {t: qwerty, h: toggle}
+  - {t: gaming, h: toggle}
+  - {t: addtional, h: toggle}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - RALT
+  qwerty:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RET
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - LGUI
+  - {t: default, h: toggle}
+  - LSHIFT
+  - SPACE
+  - {t: default, h: toggle}
+  - RALT
+  gaming:
+  - TAB
+  - '3'
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LCTRL
+  - '4'
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RET
+  - LSHFT
+  - '5'
+  - Z
+  - X
+  - C
+  - V
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - '6'
+  - G
+  - SPACE
+  - SPACE
+  - {t: default, h: toggle}
+  - RALT
+  addtional:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RET
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - LGUI
+  - {t: default, h: toggle}
+  - LSHIFT
+  - SPACE
+  - {t: default, h: toggle}
+  - RALT
