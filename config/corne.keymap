@@ -22,9 +22,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp W  &kp L  &kp Y     &kp P   &kp K         &kp Z      &kp F   &kp O     &kp U      &kp SINGLE_QUOTE  &kp BSPC
-&kp LCTRL       &kp C  &kp R  &kp S     &kp T   &kp B         &kp X      &kp N   &kp E     &kp I      &kp A             &kp RET
-&studio_unlock  &kp Q  &kp J  &kp V     &kp D   &kp G         &kp M      &kp H   &kp FSLH  &kp COMMA  &kp PERIOD        &kp ESC
+&kp TAB       &kp W  &kp L  &kp Y     &kp P   &kp K         &kp Z      &kp F   &kp O     &kp U      &kp SINGLE_QUOTE  &kp BSPC
+&kp LCTRL     &kp C  &kp R  &kp S     &kp T   &kp B         &kp X      &kp N   &kp E     &kp I      &kp A             &kp RET
+&kp LSHIFT    &kp Q  &kp J  &kp V     &kp D   &kp G         &kp M      &kp H   &kp FSLH  &kp COMMA  &kp PERIOD        &kp ESC
                               &kp LGUI  &tog 1  &kp LSHIFT    &kp SPACE  &tog 2  &kp RALT
             >;
         };
