@@ -22,10 +22,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp W  &kp L  &kp Y     &kp P  &kp K         &kp Z      &kp F  &kp O     &kp U      &kp SINGLE_QUOTE  &kp BSPC
-&kp LCTRL  &kp C  &kp R  &kp S     &kp T  &kp B         &kp X      &kp N  &kp E     &kp I      &kp A             &kp ENTER
-&studio_unlock  &kp Q  &kp J  &kp V     &kp D  &kp G         &kp M      &kp H  &kp FSLH  &kp COMMA  &kp PERIOD        &kp ESC
-                         &kp LGUI  &mo 1  &kp LSHIFT    &kp SPACE  &mo 2  &kp RALT
+&kp TAB         &kp W  &kp L  &kp Y     &kp P   &kp K         &kp Z      &kp F   &kp O     &kp U      &kp SINGLE_QUOTE  &kp BSPC
+&kp LCTRL       &kp C  &kp R  &kp S     &kp T   &kp B         &kp X      &kp N   &kp E     &kp I      &kp A             &kp ENTER
+&studio_unlock  &kp Q  &kp J  &kp V     &kp D   &kp G         &kp M      &kp H   &kp FSLH  &kp COMMA  &kp PERIOD        &kp ESC
+                              &kp LGUI  &tog 1  &kp LSHIFT    &kp SPACE  &tog 2  &kp RALT
             >;
         };
 
@@ -52,23 +52,17 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&rgb_ug RGB_SPD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &rgb_ug RGB_ON     &kp CARET  &kp AMPS   &kp ASTRK       &kp LPAR        &kp RPAR      &kp PAGE_UP
+&rgb_ug RGB_SPD  &rgb_ug RGB_SAI  &bl BL_SET 40    &bl BL_CYCLE     &bl BL_OFF         &bl BL_ON          &kp CARET  &kp AMPS   &kp ASTRK       &kp LPAR        &kp RPAR      &kp PAGE_UP
 &bl BL_SET 100   &bl BL_CYCLE     &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp MINUS  &kp PLUS   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
-&bl BL_ON        &kp K_UNDO       &kp K_CUT        &kp K_COPY       &kp K_PASTE        &kp K_REDO         &kp UNDER  &kp EQUAL  &kp LBRC        &kp RBRC        &kp PIPE      &kp PAGE_DOWN
-                                                   &trans           &trans             &trans             &trans     &trans     &kp RALT
+&bl BL_ON        &kp LG(Z)        &kp LG(X)        &kp LG(C)        &kp LG(V)          &kp K_REDO         &kp UNDER  &kp EQUAL  &kp LBRC        &kp RBRC        &kp PIPE      &kp PAGE_DOWN
+                                                   &tog 4           &trans             &trans             &trans     &trans     &kp RALT
             >;
         };
 
-        qwerty_layer {
-            status = "reserved";
-        };
+        qwerty_layer { status = "reserved"; };
 
-        gaming_layer {
-            status = "reserved";
-        };
+        gaming_layer { status = "reserved"; };
 
-        additional_layer {
-            status = "reserved";
-        };
+        additional_layer { status = "reserved"; };
     };
 };
