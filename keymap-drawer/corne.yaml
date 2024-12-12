@@ -100,7 +100,7 @@ layers:
   - )
   - PgUp
   - RGB TOG
-  - '&bl BL_CYCLE'
+  - RGB EFF
   - RGB SPD
   - RGB SPI
   - $$mdi:volume-low$$
