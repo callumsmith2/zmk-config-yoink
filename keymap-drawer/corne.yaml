@@ -1,8 +1,8 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default: [TAB, W, L, Y, P, K, Z, F, O, U, '''', BSPC, LCTRL, C, R, S, T, B, X, N, E, I, A, RET, LSHIFT, Q, J, V, D, G, M, H, /, ',', ., ESC, LGUI, numpad_sym, LSHIFT,
-    SPACE, control, RALT]
-  numpad_sym:
+  canary: [TAB, W, L, Y, P, K, Z, F, O, U, '''', BSPC, LCTRL, C, R, S, T, B, X, N, E, I, A, RET, LSHIFT, Q, J, V, D, G, M, H, /, ',', ., ESC, LGUI, NUMPAD, LSHIFT,
+    SPACE, NAV, RALT]
+  NUMPAD:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -45,7 +45,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  control:
+  NAV:
   - RGB SPD
   - RGB SAI
   - '&bl BL_SET 40'
@@ -82,13 +82,13 @@ layers:
   - '}'
   - '|'
   - PAGE DOWN
-  - {t: qwerty, h: toggle}
-  - {t: gaming, h: toggle}
+  - {t: QWERTY, h: toggle}
+  - {t: FPS, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - RALT
-  qwerty:
+  QWERTY:
   - TAB
   - Q
   - W
@@ -126,12 +126,12 @@ layers:
   - /
   - ESC
   - LGUI
-  - {t: default, h: toggle}
+  - {t: canary, h: toggle}
   - LSHIFT
   - SPACE
-  - {t: default, h: toggle}
+  - {t: canary, h: toggle}
   - RALT
-  gaming:
+  FPS:
   - TAB
   - '3'
   - Q
@@ -172,5 +172,5 @@ layers:
   - G
   - SPACE
   - SPACE
-  - {t: default, h: toggle}
+  - {t: canary, h: toggle}
   - RALT

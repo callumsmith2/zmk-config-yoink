@@ -116,8 +116,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-default">
-<text x="0" y="28" class="label" id="default">default:</text>
+<g transform="translate(30, 0)" class="layer-canary">
+<text x="0" y="28" class="label" id="canary">canary:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -269,8 +269,8 @@ path.combo {
 </g>
 <g transform="translate(382, 278) rotate(30.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#numpad_sym">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 70%">numpad_sym</tspan></text>
+<a href="#NUMPAD">
+<text x="0" y="0" class="key tap layer-activator">NUMPAD</text>
 </a></g>
 <g transform="translate(518, 63)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -282,8 +282,8 @@ path.combo {
 </g>
 <g transform="translate(610, 255) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#control">
-<text x="0" y="0" class="key tap layer-activator">control</text>
+<a href="#NAV">
+<text x="0" y="0" class="key tap layer-activator">NAV</text>
 </a></g>
 <g transform="translate(672, 231)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -291,8 +291,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 384)" class="layer-numpad_sym">
-<text x="0" y="28" class="label" id="numpad_sym">numpad_sym:</text>
+<g transform="translate(30, 384)" class="layer-NUMPAD">
+<text x="0" y="28" class="label" id="NUMPAD">NUMPAD:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -469,8 +469,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 768)" class="layer-control">
-<text x="0" y="28" class="label" id="control">control:</text>
+<g transform="translate(30, 768)" class="layer-NAV">
+<text x="0" y="28" class="label" id="NAV">NAV:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -662,14 +662,14 @@ path.combo {
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#qwerty">
-<text x="0" y="0" class="key tap layer-activator">qwerty</text>
+<a href="#QWERTY">
+<text x="0" y="0" class="key tap layer-activator">QWERTY</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(382, 278) rotate(30.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#gaming">
-<text x="0" y="0" class="key tap layer-activator">gaming</text>
+<a href="#FPS">
+<text x="0" y="0" class="key tap layer-activator">FPS</text>
 </a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(518, 63)" class="key trans keypos-38">
@@ -689,8 +689,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1153)" class="layer-qwerty">
-<text x="0" y="28" class="label" id="qwerty">qwerty:</text>
+<g transform="translate(30, 1153)" class="layer-QWERTY">
+<text x="0" y="28" class="label" id="QWERTY">QWERTY:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -842,8 +842,8 @@ path.combo {
 </g>
 <g transform="translate(382, 278) rotate(30.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#default">
-<text x="0" y="0" class="key tap layer-activator">default</text>
+<a href="#canary">
+<text x="0" y="0" class="key tap layer-activator">canary</text>
 </a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(518, 63)" class="key keypos-38">
@@ -856,8 +856,8 @@ path.combo {
 </g>
 <g transform="translate(610, 255) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#default">
-<text x="0" y="0" class="key tap layer-activator">default</text>
+<a href="#canary">
+<text x="0" y="0" class="key tap layer-activator">canary</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(672, 231)" class="key keypos-41">
@@ -866,8 +866,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1537)" class="layer-gaming">
-<text x="0" y="28" class="label" id="gaming">gaming:</text>
+<g transform="translate(30, 1537)" class="layer-FPS">
+<text x="0" y="28" class="label" id="FPS">FPS:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1031,8 +1031,8 @@ path.combo {
 </g>
 <g transform="translate(610, 255) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#default">
-<text x="0" y="0" class="key tap layer-activator">default</text>
+<a href="#canary">
+<text x="0" y="0" class="key tap layer-activator">canary</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(672, 231)" class="key keypos-41">
