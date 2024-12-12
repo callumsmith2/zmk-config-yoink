@@ -87,7 +87,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '0'
   NAV:
-  - RGB SPD
+  - EP TOG
   - RGB SAI
   - '&bl BL_SET 40'
   - '&bl BL_CYCLE'
@@ -99,7 +99,7 @@ layers:
   - (
   - )
   - PgUp
-  - '&bl BL_SET 100'
+  - RGB TOG
   - '&bl BL_CYCLE'
   - RGB SPD
   - RGB SPI
@@ -215,3 +215,22 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: canary, h: toggle}
   - $$mdi:apple-keyboard-option$$
+combos:
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
+- p: [3, 4]
+  k: {t: '[', s: '{'}
+- p: [9, 8]
+  k: {t: ']', s: '}'}
+- p: [16, 17]
+  k: (
+- p: [21, 22]
+  k: )
+- p: [29, 30]
+  k: '{'
+- p: [34, 35]
+  k: '}'
+- p: [5, 7]
+  k: {t: \, s: '|'}
+- p: [18, 20]
+  k: '|'
