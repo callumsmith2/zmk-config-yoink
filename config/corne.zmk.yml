@@ -3,14 +3,12 @@ id: corne
 name: ButteredCorne
 type: shield
 url: https://github.com/foostan/crkbd/
-requires:
-  - nice_nano
-exposes:
-  - i2c_oled
+requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
   - display
-  - backlight
+  - underglow
   - studio
 siblings:
   - corne_left
