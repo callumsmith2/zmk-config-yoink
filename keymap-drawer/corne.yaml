@@ -88,11 +88,11 @@ layers:
   - '0'
   NAV:
   - EP TOG
+  - RGB HUI
+  - RGB SAD
   - RGB SAI
-  - '&bl BL_SET 40'
-  - '&bl BL_CYCLE'
-  - '&bl BL_OFF'
-  - '&bl BL_ON'
+  - RGB BRD
+  - RGB BRI
   - ^
   - '&'
   - '*'
