@@ -86,21 +86,6 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <18 19>;
         };
-
-        bac {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <4 17>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <18 30>;
-        };
-
-        forward_slash {
-            bindings = <&kp SLASH>;
-            key-positions = <18 7>;
-        };
     };
 
     keymap {
