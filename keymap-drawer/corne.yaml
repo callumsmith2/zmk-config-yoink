@@ -27,9 +27,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Q
-  - J
-  - V
-  - D
+  - EP TOG
+  - RGB TOG
+  - RGB EFF
   - G
   - M
   - H
