@@ -100,10 +100,10 @@
 
         canary {
             bindings = <
-&kp TAB     &kp W  &kp L  &kp Y     &kp P  &kp K         &kp Z      &kp F  &kp O     &kp U      &kp SINGLE_QUOTE  &kp BSPC
-&kp LCTRL   &kp C  &kp R  &kp S     &kp T  &kp B         &kp X      &kp N  &kp E     &kp I      &kp A             &kp RET
-&kp LSHIFT  &kp Q  &kp J  &kp V     &kp D  &kp G         &kp M      &kp H  &kp FSLH  &kp COMMA  &kp PERIOD        &kp ESC
-                          &kp LGUI  &mo 1  &kp LSHIFT    &kp SPACE  &mo 2  &kp RALT
+&kp TAB     &kp W  &kp L  &kp Y            &kp P     &kp K               &kp Z      &kp F        &kp O          &kp U      &kp SINGLE_QUOTE  &kp RIGHT_ALT
+&kp LCTRL   &kp C  &kp R  &kp S            &kp T     &kp B               &kp X      &kp N        &kp E          &kp I      &kp A             &kp RET
+&kp LSHIFT  &kp Q  &kp J  &kp V            &kp D     &kp G               &kp M      &kp H        &kp FSLH       &kp COMMA  &kp PERIOD        &kp ESC
+                          &mt LGUI DELETE  &lt 1 AT  &mt LSHIFT SPACE    &kp SPACE  &lt 2 MINUS  &kp BACKSPACE
             >;
         };
 
