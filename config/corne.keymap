@@ -122,10 +122,10 @@
             //                    | GUI |     | SPC |   | ENT |     |  0  |
 
             bindings = <
-&trans      &trans        &trans        &trans        &kp EQUAL      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7     &kp N8        &kp N9  &kp PLUS      &kp BACKSPACE
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N4     &kp N5        &kp N6  &kp ASTERISK  &kp RET
-&trans      &trans        &trans        &kp GRAVE     &kp BACKSLASH  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N1     &kp N2        &kp N3  &kp PERIOD    &trans
-                                        &trans        &trans         &kp LSHFT               &kp SPACE              &kp MINUS  &kp NUMBER_0
+&kp CAPSLOCK  &trans        &trans        &trans        &kp EQUAL      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7     &kp N8        &kp N9  &kp PLUS      &kp BACKSPACE
+&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N4     &kp N5        &kp N6  &kp ASTERISK  &kp RET
+&trans        &trans        &trans        &kp GRAVE     &kp BACKSLASH  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N1     &kp N2        &kp N3  &kp PERIOD    &trans
+                                          &trans        &trans         &kp LSHFT               &kp SPACE              &kp MINUS  &kp NUMBER_0
             >;
         };
 
