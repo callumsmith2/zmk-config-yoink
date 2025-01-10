@@ -141,7 +141,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -167,11 +167,11 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: canary, h: toggle}
+  - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: canary, h: toggle}
-  - $$mdi:apple-keyboard-option$$
+  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:backspace$$', type: backspace}
   FPS:
   - $$mdi:keyboard-tab$$
   - '3'
