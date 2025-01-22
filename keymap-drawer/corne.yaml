@@ -106,11 +106,11 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '-', s: _}
-  - +
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&studio_unlock'
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
